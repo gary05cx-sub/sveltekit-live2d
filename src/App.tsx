@@ -42,10 +42,10 @@ function App() {
         autoInteract: false,
       });
       
-      model.scale.set(0.35);
+      model.scale.set(0.175);
       model.anchor.set(0.5, 1);
       model.x = app.screen.width / 2;
-      model.y = app.screen.height * 0.92;
+      model.y = app.screen.height * 1.5;
       
       model.eventMode = 'static';
       model.on('pointertap', () => {
